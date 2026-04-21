@@ -1,0 +1,9 @@
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m-rt = "0.7"
+microbit-v2 = "0.14"
+embedded-hal = "1.0.0"

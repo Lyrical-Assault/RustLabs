@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/build/nrf52833-pac-68fdf2d02d0c1fda/out
+cargo:rerun-if-changed=device.x
+cargo:rerun-if-changed=build.rs

@@ -1,0 +1,10 @@
+/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/debug/deps/proc_macro_utils-d6f70e58f5aa2287.d: /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/lib.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/parser.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/assert.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/__private.rs
+
+/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/debug/deps/libproc_macro_utils-d6f70e58f5aa2287.rlib: /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/lib.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/parser.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/assert.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/__private.rs
+
+/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/debug/deps/libproc_macro_utils-d6f70e58f5aa2287.rmeta: /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/lib.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/parser.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/assert.rs /Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/__private.rs
+
+/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/lib.rs:
+/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/parser.rs:
+/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/assert.rs:
+/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro-utils-0.10.0/src/__private.rs:

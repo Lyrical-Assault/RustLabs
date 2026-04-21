@@ -1,0 +1,1122 @@
+   0.081428500s  INFO prepare_target{force=false package_id=compass v0.1.0 (/Users/sergey_bykov/Desktop/4 семестр/microbit/compass) target="compass"}: cargo::core::compiler::fingerprint: fingerprint error for compass v0.1.0 (/Users/sergey_bykov/Desktop/4 семестр/microbit/compass)/Check { test: false }/TargetInner { name: "compass", doc: true, ..: with_path("/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/src/main.rs", Edition2021) }
+   0.081454750s  INFO prepare_target{force=false package_id=compass v0.1.0 (/Users/sergey_bykov/Desktop/4 семестр/microbit/compass) target="compass"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/compass-d3a77c9f7d3d274a/bin-compass`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::cli::main
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.084708792s  INFO prepare_target{force=false package_id=cortex-m-rt v0.7.5 target="cortex_m_rt"}: cargo::core::compiler::fingerprint: fingerprint error for cortex-m-rt v0.7.5/Check { test: false }/TargetInner { ..: lib_target("cortex_m_rt", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-rt-0.7.5/src/lib.rs", Edition2021) }
+   0.084717375s  INFO prepare_target{force=false package_id=cortex-m-rt v0.7.5 target="cortex_m_rt"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/cortex-m-rt-b7cb699f41673fcd/lib-cortex_m_rt`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::cli::main
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.085604875s  INFO prepare_target{force=false package_id=embedded-hal v1.0.0 target="embedded_hal"}: cargo::core::compiler::fingerprint: fingerprint error for embedded-hal v1.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("embedded_hal", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-hal-1.0.0/src/lib.rs", Edition2021) }
+   0.085611084s  INFO prepare_target{force=false package_id=embedded-hal v1.0.0 target="embedded_hal"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/embedded-hal-5ffc99dd6cb22c50/lib-embedded_hal`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::cli::main
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.085791000s  INFO prepare_target{force=false package_id=libm v0.2.16 target="libm"}: cargo::core::compiler::fingerprint: fingerprint error for libm v0.2.16/Check { test: false }/TargetInner { ..: lib_target("libm", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libm-0.2.16/src/lib.rs", Edition2021) }
+   0.085795459s  INFO prepare_target{force=false package_id=libm v0.2.16 target="libm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/libm-bbeb7cb423b6d5b2/lib-libm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::cli::main
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.086089584s  INFO prepare_target{force=false package_id=lsm303agr v1.1.0 target="lsm303agr"}: cargo::core::compiler::fingerprint: fingerprint error for lsm303agr v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lsm303agr", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lsm303agr-1.1.0/src/lib.rs", Edition2021) }
+   0.086094167s  INFO prepare_target{force=false package_id=lsm303agr v1.1.0 target="lsm303agr"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/lsm303agr-94f6d7d449bf69b9/lib-lsm303agr`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::cli::main
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.086305417s  INFO prepare_target{force=false package_id=bitflags v2.11.1 target="bitflags"}: cargo::core::compiler::fingerprint: fingerprint error for bitflags v2.11.1/Check { test: false }/TargetInner { ..: lib_target("bitflags", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitflags-2.11.1/src/lib.rs", Edition2021) }
+   0.086309667s  INFO prepare_target{force=false package_id=bitflags v2.11.1 target="bitflags"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/bitflags-cef38d95ea9b9cc3/lib-bitflags`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.087046334s  INFO prepare_target{force=false package_id=nb v1.1.0 target="nb"}: cargo::core::compiler::fingerprint: fingerprint error for nb v1.1.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("nb", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nb-1.1.0/src/lib.rs", Edition2018) }
+   0.087056250s  INFO prepare_target{force=false package_id=nb v1.1.0 target="nb"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/nb-facd844c41a7c0bb/lib-nb`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.087206584s  INFO prepare_target{force=false package_id=microbit-v2 v0.14.0 target="microbit"}: cargo::core::compiler::fingerprint: fingerprint error for microbit-v2 v0.14.0/Check { test: false }/TargetInner { ..: lib_target("microbit", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/microbit-v2-0.14.0/src/lib.rs", Edition2018) }
+   0.087213250s  INFO prepare_target{force=false package_id=microbit-v2 v0.14.0 target="microbit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/microbit-v2-15f9ded541f96ad7/lib-microbit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::cli::main
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.087379667s  INFO prepare_target{force=false package_id=microbit-common v0.14.0 target="microbit_common"}: cargo::core::compiler::fingerprint: fingerprint error for microbit-common v0.14.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("microbit_common", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/microbit-common-0.14.0/src/lib.rs", Edition2018) }
+   0.087384125s  INFO prepare_target{force=false package_id=microbit-common v0.14.0 target="microbit_common"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/microbit-common-03328370888b84b4/lib-microbit_common`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::cli::main
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.087593959s  INFO prepare_target{force=false package_id=nrf52833-hal v0.17.1 target="nrf52833_hal"}: cargo::core::compiler::fingerprint: fingerprint error for nrf52833-hal v0.17.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("nrf52833_hal", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nrf52833-hal-0.17.1/src/lib.rs", Edition2018) }
+   0.087598792s  INFO prepare_target{force=false package_id=nrf52833-hal v0.17.1 target="nrf52833_hal"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/nrf52833-hal-ed32d4dfe49b8edc/lib-nrf52833_hal`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.087789709s  INFO prepare_target{force=false package_id=nrf-hal-common v0.17.1 target="nrf_hal_common"}: cargo::core::compiler::fingerprint: fingerprint error for nrf-hal-common v0.17.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("nrf_hal_common", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nrf-hal-common-0.17.1/src/lib.rs", Edition2018) }
+   0.087793959s  INFO prepare_target{force=false package_id=nrf-hal-common v0.17.1 target="nrf_hal_common"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/nrf-hal-common-3b22499e92a01b42/lib-nrf_hal_common`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::cli::main
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.088237750s  INFO prepare_target{force=false package_id=cast v0.3.0 target="cast"}: cargo::core::compiler::fingerprint: fingerprint error for cast v0.3.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cast", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cast-0.3.0/src/lib.rs", Edition2018) }
+   0.088244625s  INFO prepare_target{force=false package_id=cast v0.3.0 target="cast"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/cast-bd346329e984a087/lib-cast`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.088402000s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.4/Check { test: false }/TargetInner { ..: lib_target("cfg_if", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cfg-if-1.0.4/src/lib.rs", Edition2018) }
+   0.088406125s  INFO prepare_target{force=false package_id=cfg-if v1.0.4 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/cfg-if-ef9c0080ad7c7109/lib-cfg_if`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.088563042s  INFO prepare_target{force=false package_id=cortex-m v0.7.7 target="cortex_m"}: cargo::core::compiler::fingerprint: fingerprint error for cortex-m v0.7.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cortex_m", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cortex-m-0.7.7/src/lib.rs", Edition2018) }
+   0.088566750s  INFO prepare_target{force=false package_id=cortex-m v0.7.7 target="cortex_m"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/cortex-m-5de133c00abd025e/lib-cortex_m`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.088773167s  INFO prepare_target{force=false package_id=bare-metal v0.2.5 target="bare_metal"}: cargo::core::compiler::fingerprint: fingerprint error for bare-metal v0.2.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bare_metal", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bare-metal-0.2.5/src/lib.rs", Edition2015) }
+   0.088777084s  INFO prepare_target{force=false package_id=bare-metal v0.2.5 target="bare_metal"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/bare-metal-d38e3197240be305/lib-bare_metal`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.089129709s  INFO prepare_target{force=false package_id=bitfield v0.13.2 target="bitfield"}: cargo::core::compiler::fingerprint: fingerprint error for bitfield v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bitfield", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bitfield-0.13.2/src/lib.rs", Edition2015) }
+   0.089134084s  INFO prepare_target{force=false package_id=bitfield v0.13.2 target="bitfield"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/bitfield-da54b02fefbb6d25/lib-bitfield`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.089476792s  INFO prepare_target{force=false package_id=embedded-hal v0.2.7 target="embedded_hal"}: cargo::core::compiler::fingerprint: fingerprint error for embedded-hal v0.2.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("embedded_hal", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-hal-0.2.7/src/lib.rs", Edition2015) }
+   0.089483750s  INFO prepare_target{force=false package_id=embedded-hal v0.2.7 target="embedded_hal"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/embedded-hal-374ad493bc28008c/lib-embedded_hal`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.089653834s  INFO prepare_target{force=false package_id=nb v0.1.3 target="nb"}: cargo::core::compiler::fingerprint: fingerprint error for nb v0.1.3/Check { test: false }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("nb", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nb-0.1.3/src/lib.rs", Edition2015) }
+   0.089658625s  INFO prepare_target{force=false package_id=nb v0.1.3 target="nb"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/nb-ba241eaf3831db79/lib-nb`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::cli::main
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+  23: _main
+   0.089809917s  INFO prepare_target{force=false package_id=void v1.0.2 target="void"}: cargo::core::compiler::fingerprint: fingerprint error for void v1.0.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("void", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/void-1.0.2/src/lib.rs", Edition2015) }
+   0.089817250s  INFO prepare_target{force=false package_id=void v1.0.2 target="void"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/void-7f733e907478ea4a/lib-void`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::cli::main
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+  23: _main
+   0.089978709s  INFO prepare_target{force=false package_id=volatile-register v0.2.2 target="volatile_register"}: cargo::core::compiler::fingerprint: fingerprint error for volatile-register v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("volatile_register", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/volatile-register-0.2.2/src/lib.rs", Edition2015) }
+   0.089983042s  INFO prepare_target{force=false package_id=volatile-register v0.2.2 target="volatile_register"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/volatile-register-ed2214313e9a86e8/lib-volatile_register`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.090127375s  INFO prepare_target{force=false package_id=vcell v0.1.3 target="vcell"}: cargo::core::compiler::fingerprint: fingerprint error for vcell v0.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("vcell", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/vcell-0.1.3/src/lib.rs", Edition2015) }
+   0.090132042s  INFO prepare_target{force=false package_id=vcell v0.1.3 target="vcell"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/vcell-07a6b46920b5f037/lib-vcell`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::cli::main
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+  23: _main
+   0.090291000s  INFO prepare_target{force=false package_id=embedded-dma v0.2.0 target="embedded_dma"}: cargo::core::compiler::fingerprint: fingerprint error for embedded-dma v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("embedded_dma", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-dma-0.2.0/src/lib.rs", Edition2018) }
+   0.090295209s  INFO prepare_target{force=false package_id=embedded-dma v0.2.0 target="embedded_dma"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/embedded-dma-b8485d7b8c267f06/lib-embedded_dma`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.090428250s  INFO prepare_target{force=false package_id=stable_deref_trait v1.2.1 target="stable_deref_trait"}: cargo::core::compiler::fingerprint: fingerprint error for stable_deref_trait v1.2.1/Check { test: false }/TargetInner { ..: lib_target("stable_deref_trait", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/stable_deref_trait-1.2.1/src/lib.rs", Edition2015) }
+   0.090432459s  INFO prepare_target{force=false package_id=stable_deref_trait v1.2.1 target="stable_deref_trait"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/stable_deref_trait-9f5c2679d75afa7e/lib-stable_deref_trait`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.090605000s  INFO prepare_target{force=false package_id=embedded-io v0.6.1 target="embedded_io"}: cargo::core::compiler::fingerprint: fingerprint error for embedded-io v0.6.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("embedded_io", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-io-0.6.1/src/lib.rs", Edition2021) }
+   0.090611875s  INFO prepare_target{force=false package_id=embedded-io v0.6.1 target="embedded_io"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/embedded-io-8f67a08c0160b20c/lib-embedded_io`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.090758167s  INFO prepare_target{force=false package_id=embedded-storage v0.3.1 target="embedded_storage"}: cargo::core::compiler::fingerprint: fingerprint error for embedded-storage v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("embedded_storage", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/embedded-storage-0.3.1/src/lib.rs", Edition2018) }
+   0.090762250s  INFO prepare_target{force=false package_id=embedded-storage v0.3.1 target="embedded_storage"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/embedded-storage-90b218b0d0c14bbe/lib-embedded_storage`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.090939625s  INFO prepare_target{force=false package_id=fixed v1.31.0 target="fixed"}: cargo::core::compiler::fingerprint: fingerprint error for fixed v1.31.0/Check { test: false }/TargetInner { ..: lib_target("fixed", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fixed-1.31.0/src/lib.rs", Edition2024) }
+   0.090943709s  INFO prepare_target{force=false package_id=fixed v1.31.0 target="fixed"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/fixed-5a3f5f5b6b91a685/lib-fixed`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.091162584s  INFO prepare_target{force=false package_id=az v1.3.0 target="az"}: cargo::core::compiler::fingerprint: fingerprint error for az v1.3.0/Check { test: false }/TargetInner { ..: lib_target("az", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/az-1.3.0/src/lib.rs", Edition2024) }
+   0.091166375s  INFO prepare_target{force=false package_id=az v1.3.0 target="az"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/az-be0e7e4a01f64304/lib-az`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.091315209s  INFO prepare_target{force=false package_id=bytemuck v1.25.0 target="bytemuck"}: cargo::core::compiler::fingerprint: fingerprint error for bytemuck v1.25.0/Check { test: false }/TargetInner { ..: lib_target("bytemuck", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bytemuck-1.25.0/src/lib.rs", Edition2018) }
+   0.091319042s  INFO prepare_target{force=false package_id=bytemuck v1.25.0 target="bytemuck"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/bytemuck-11f329fd41b99af8/lib-bytemuck`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.091588042s  INFO prepare_target{force=false package_id=half v2.7.1 target="half"}: cargo::core::compiler::fingerprint: fingerprint error for half v2.7.1/Check { test: false }/TargetInner { ..: lib_target("half", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/half-2.7.1/src/lib.rs", Edition2021) }
+   0.091591959s  INFO prepare_target{force=false package_id=half v2.7.1 target="half"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/half-8157b9b7a4f1aafa/lib-half`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.091762209s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.48/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-0.8.48/src/lib.rs", Edition2021) }
+   0.091766042s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/zerocopy-61871c423027f251/lib-zerocopy`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::cli::main
+  19: cargo::main
+  20: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  21: std::rt::lang_start::<()>::{closure#0}
+  22: std::rt::lang_start_internal
+  23: _main
+   0.092196209s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.19.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/typenum-1.19.0/src/lib.rs", Edition2018) }
+   0.092200334s  INFO prepare_target{force=false package_id=typenum v1.19.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/typenum-5440b296f02b55b8/lib-typenum`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.092567625s  INFO prepare_target{force=false package_id=nrf-usbd v0.2.0 target="nrf_usbd"}: cargo::core::compiler::fingerprint: fingerprint error for nrf-usbd v0.2.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("nrf_usbd", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nrf-usbd-0.2.0/src/lib.rs", Edition2018) }
+   0.092572125s  INFO prepare_target{force=false package_id=nrf-usbd v0.2.0 target="nrf_usbd"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/nrf-usbd-011b4b95c78209f5/lib-nrf_usbd`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.092787667s  INFO prepare_target{force=false package_id=critical-section v1.2.0 target="critical_section"}: cargo::core::compiler::fingerprint: fingerprint error for critical-section v1.2.0/Check { test: false }/TargetInner { ..: lib_target("critical_section", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/critical-section-1.2.0/src/lib.rs", Edition2018) }
+   0.092791834s  INFO prepare_target{force=false package_id=critical-section v1.2.0 target="critical_section"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/critical-section-9be4f09a696cf2aa/lib-critical_section`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.092963417s  INFO prepare_target{force=false package_id=usb-device v0.2.9 target="usb_device"}: cargo::core::compiler::fingerprint: fingerprint error for usb-device v0.2.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("usb_device", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/usb-device-0.2.9/src/lib.rs", Edition2018) }
+   0.092967625s  INFO prepare_target{force=false package_id=usb-device v0.2.9 target="usb_device"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/usb-device-4d411fdaa767245a/lib-usb_device`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::cli::main
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.093114042s  INFO prepare_target{force=false package_id=nrf52833-pac v0.12.2 target="nrf52833_pac"}: cargo::core::compiler::fingerprint: fingerprint error for nrf52833-pac v0.12.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("nrf52833_pac", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nrf52833-pac-0.12.2/src/lib.rs", Edition2018) }
+   0.093118209s  INFO prepare_target{force=false package_id=nrf52833-pac v0.12.2 target="nrf52833_pac"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/nrf52833-pac-1a1b26fd201c113e/lib-nrf52833_pac`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.093432459s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.6.4/src/lib.rs", Edition2018) }
+   0.093436709s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/rand_core-662846806b2e023b/lib-rand_core`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::cli::main
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.093754542s  INFO prepare_target{force=false package_id=tiny-led-matrix v1.0.2 target="tiny_led_matrix"}: cargo::core::compiler::fingerprint: fingerprint error for tiny-led-matrix v1.0.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("tiny_led_matrix", ["lib"], "/Users/sergey_bykov/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tiny-led-matrix-1.0.2/src/lib.rs", Edition2018) }
+   0.093759209s  INFO prepare_target{force=false package_id=tiny-led-matrix v1.0.2 target="tiny_led_matrix"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/tiny-led-matrix-6d11410efd6f696d/lib-tiny_led_matrix`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::cli::main
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.093979084s  INFO prepare_target{force=false package_id=compass v0.1.0 (/Users/sergey_bykov/Desktop/4 семестр/microbit/compass) target="compass"}: cargo::core::compiler::fingerprint: fingerprint error for compass v0.1.0 (/Users/sergey_bykov/Desktop/4 семестр/microbit/compass)/Check { test: true }/TargetInner { name: "compass", doc: true, ..: with_path("/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/src/main.rs", Edition2021) }
+   0.093984459s  INFO prepare_target{force=false package_id=compass v0.1.0 (/Users/sergey_bykov/Desktop/4 семестр/microbit/compass) target="compass"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/sergey_bykov/Desktop/4 семестр/microbit/compass/target/thumbv7em-none-eabihf/debug/.fingerprint/compass-66d76ba93d809f18/test-bin-compass`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: <std::io::error::Error as anyhow::context::ext::StdError>::ext_context::<alloc::string::String>
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::prepare_target
+   4: cargo::core::compiler::compile
+   5: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   6: cargo::ops::cargo_compile::compile_ws
+   7: cargo::ops::cargo_compile::compile_with_exec
+   8: cargo::ops::cargo_compile::compile
+   9: cargo::commands::check::exec
+  10: <cargo::cli::Exec>::exec
+  11: cargo::cli::main
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+    Checking nb v1.1.0
+    Checking void v1.0.2
+    Checking vcell v0.1.3
+    Checking bitfield v0.13.2
+    Checking cfg-if v1.0.4
+    Checking typenum v1.19.0
+    Checking bare-metal v0.2.5
+    Checking zerocopy v0.8.48
+    Checking cortex-m-rt v0.7.5
+    Checking bytemuck v1.25.0
+error: could not compile `void` (lib) due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+    Checking usb-device v0.2.9
+error: could not compile `bitfield` (lib) due to 1 previous error
+    Checking az v1.3.0
+error: could not compile `vcell` (lib) due to 1 previous error
+error: could not compile `cfg-if` (lib) due to 1 previous error
+    Checking critical-section v1.2.0
+    Checking stable_deref_trait v1.2.1
+error: could not compile `nb` (lib) due to 1 previous error
+    Checking embedded-hal v1.0.0
+error: could not compile `bare-metal` (lib) due to 1 previous error
+    Checking cast v0.3.0
+error: could not compile `cortex-m-rt` (lib) due to 1 previous error
+    Checking rand_core v0.6.4
+error: could not compile `bytemuck` (lib) due to 1 previous error
+    Checking embedded-io v0.6.1
+error: could not compile `az` (lib) due to 1 previous error
+error: could not compile `usb-device` (lib) due to 1 previous error
+    Checking embedded-storage v0.3.1
+error: could not compile `critical-section` (lib) due to 1 previous error
+    Checking tiny-led-matrix v1.0.2
+error: could not compile `embedded-hal` (lib) due to 1 previous error
+    Checking bitflags v2.11.1
+    Checking libm v0.2.16
+error: could not compile `cast` (lib) due to 1 previous error
+error: could not compile `stable_deref_trait` (lib) due to 1 previous error
+error: could not compile `zerocopy` (lib) due to 1 previous error
+error: could not compile `rand_core` (lib) due to 1 previous error
+error: could not compile `embedded-io` (lib) due to 1 previous error
+error: could not compile `typenum` (lib) due to 1 previous error
+error: could not compile `embedded-storage` (lib) due to 1 previous error
+error: could not compile `tiny-led-matrix` (lib) due to 1 previous error
+error: could not compile `bitflags` (lib) due to 1 previous error
+error: could not compile `libm` (lib) due to 1 previous error
